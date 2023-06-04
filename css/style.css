@@ -1,0 +1,687 @@
+@charset "utf-8";
+
+:root{
+   --fontFamilyTitle: 'Georgian';
+   --fontFamilyPar: 'Lato';
+   --backgroundBody: #e5e5e5;
+   --backgroundHeader: #fff;
+   --background: #245852;
+   --colorTitle: #000;
+   --colorPar: #292929;
+   --colorContainerPar: #484848;
+   --colorWorkPar: #424242;
+   --linkHover: #214c07;
+   --backgroundLink: #01996d;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul{
+   list-style: none;
+
+   padding: 0;
+
+   margin: 0;
+}
+
+.body{
+   background-color: var(--backgroundBody);
+}
+
+/* Опис диву хедера */
+
+.headerContent{
+   display: flex;
+
+   justify-content: space-between;
+
+   width: 1920px;
+   height: 85px;
+
+   background-color: var(--backgroundHeader);
+
+   margin: 0 auto;
+   padding: 0 275px;
+}
+
+/* Опис лого хедеру */
+
+.logo{
+   margin: 30px 0;
+}
+
+/* Опис навігаційного контенту */
+
+.navBox{
+   display: flex;
+
+   align-items: center;
+}
+
+.navBoxContent{
+   display: flex;
+
+   align-items: center;
+}
+
+.navBoxLi{
+   margin-right: 72px;
+}
+
+/* Опис силок навігації */
+
+.navLink{
+   width: 103px;
+   height: 24px;
+
+   font-family: var(--fontFamilyPar);
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 24px;
+
+   color: var(--colorPar);
+}
+
+.navLink:hover, .navLink:focus{
+   color: var(--linkHover);
+}
+
+.liLinkBox{
+   width: 183px;
+   height: 51px;
+
+   text-align: center;
+
+   padding-top: 13px;
+   margin-right: 0px;
+}
+
+.liLinkBox:hover, .liLinkBox:focus{
+   background-color: var(--backgroundLink);
+}
+
+
+.headerLink{
+   width: 83px;
+   height: 25px;
+
+   font-family: var(--fontFamilyPar);
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 25px;
+
+   color: var(--colorPar);
+
+   background: var(--backgroundHeader);
+}
+
+.headerLink:hover, .headerLink:focus{
+   background: var(--backgroundLink);
+
+   color: var(--backgroundHeader);
+}
+
+/*секція титлу*/
+
+.sectionTitle{
+   width: 1920px;
+   height: 895px;
+
+   background-image: url(../img/BG.jpg);
+
+   background-repeat: no-repeat;
+
+   background-position-x: 0;
+   background-position-y: 0;
+
+   background-size: 1920px 895px; 
+
+   background-color: var(--backgroundHeader);
+
+   padding: 115px 1205px 336px 275px;
+   margin: 0px auto;
+}
+
+.container{
+	width: 440px;
+	height: 384px;
+}
+
+.containerTitle {
+	font-family: var(--fontFamilyTitle);
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 73.85px;
+
+	color: var(--backgroundLink);
+
+	margin-bottom: 0;
+}
+
+.containerPar {
+	width: 420px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28.9px;
+
+	color: var(--colorContainerPar);
+}
+
+.containerDiv {
+	width: 227px;
+	height: 65px;
+
+	background-color: var(--backgroundLink);
+
+	padding: 20px 47px;
+
+	margin-top: 40px;
+}
+
+.containerLink {
+	width: 127px;
+	height: 25px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+
+	text-align: center;
+
+	color: var(--backgroundHeader);
+}
+
+.containerLink:hover, .containerLink:focus {
+		color: var(--linkHover);
+}
+
+
+/*секція ворк*/
+
+.work {
+	width: 1920px;
+	height: 1606px;
+
+	background-color: var(--backgroundHeader);
+
+	padding: 169px 232px 51px 275px;
+
+	margin: 0 auto;
+}
+
+.workDiv{
+	width: 1413px;
+	height: 1386px;
+}
+
+.workPar {
+	font-family: var(--fontFamilyPar);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 37.68px;
+
+	color: var(--colorWorkPar);
+
+	margin-bottom: 0;
+}
+
+/*опис классу ул секції ворк*/
+
+.workUl{
+	display: flex;
+
+	margin: 0;
+}
+
+.ulLi{
+	margin-right: 136px;
+}
+
+/*опис титлу секції ворк*/
+
+.hLi {
+	width: 524px;
+	height: 158px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 78.5px;
+
+	color: var(--backgroundLink);
+
+	margin: 0;
+}
+
+.pLi {
+	width: 641px;
+	height: 269px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+
+	color: var(--colorWorkPar);
+}
+
+/*Опис дівів в списку лі секції ворк*/
+
+.ulLiDiv{
+	margin-right: 95px;
+}
+
+/*Опис классу ул дівів секції ворк*/
+
+.ulDiv{
+	display: flex;
+
+	margin: 0;
+}
+
+.ulDivLi{
+	margin-top: 275px;
+}
+
+.ulDivLiTwo{
+	margin-top: 105px;
+}
+
+.divLi{
+	width: 390px;
+	height: 837px;
+
+	padding-top: 20px;
+}
+
+.divLiTwo {
+	width: 390px;
+	height: 757px;
+
+	padding-top: 20px;
+}
+
+.divLiBackPicture {
+	background: url(../img/01.png) no-repeat left top, 
+		url(../img/Rectangle30.png) no-repeat bottom;
+}
+
+.divLiBackPictureTwo {
+	background: url(../img/02.png) no-repeat left top, 
+		url(../img/Rectangle31.png) no-repeat bottom;
+}
+
+.divLiBackPictureThree {
+	background: url(../img/03.png) no-repeat left top, 
+		url(../img/Group29.png) no-repeat bottom;
+}
+
+/*Опис титлів в дівах*/
+
+.titleDiv {
+	width: 181px;
+	height: 45px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 45px;
+
+	text-align: center;
+
+	color: var(--colorTitle);
+
+	margin-left: 68px;
+}
+
+.titleDivTwo {
+	width: 313px;
+	height: 45px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 45px;
+
+	text-align: center;
+
+	color: var(--colorTitle);
+
+	margin-left: 48px;
+}
+
+.titleDivThree {
+	width: 102px;
+	height: 45px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 45px;
+
+	text-align: center;
+
+	color: var(--colorTitle);
+
+	margin-left: 104px;
+}
+
+/*Опис параграфів списку лі*/
+
+.liPar {
+	width: 382px;
+	height: 150px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+
+	color: var(--colorTitle);
+}
+
+/*Секція з відео*/
+
+.sectionVideo {
+	width: 1920px;
+	height: 922px;
+
+	background: var(--background);
+
+	padding: 229px 207px 177px;
+
+	margin: 0 auto;
+}
+
+/*Опис титлу параграфу та посилання секції відео*/
+
+.liVideo{
+	margin-right: 31px;
+}
+
+.divVideo{
+	margin-top: 81px;
+}
+
+.titleVideo {
+	width: 580px;
+	height: 158px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 78.5px;
+
+	color: var(--backgroundHeader);
+
+	margin: 0;
+}
+
+.parVideo {
+	width: 580px;
+	height: 39px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 39.25px;
+
+	color: var(--backgroundHeader);
+}
+
+.divVideoLink {
+	width: 240px;
+	height: 65px;
+
+	background: var(--backgroundLink);
+
+	padding: 20px 47px;
+
+	margin-top: 57px;
+}
+
+.videoLink {
+	width: 140px;
+	height: 25px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+
+	color: var(--backgroundHeader);
+}
+
+.videoLink:hover, .videoLink:focus {
+	color: var(--background);
+}
+
+/*Секція продукт*/
+
+.sectionProducte {
+	width: 1920px;
+	height: 936px;
+
+	background: var(--backgroundBody);
+
+	padding: 120px 275px 168px;
+
+	margin: 0 auto;
+}
+
+/*Опис діву секції продукт*/
+
+.divLiProducteUl {
+	width: 297px;
+	height: 294px;
+
+	background: var(--backgroundHeader);
+
+	padding-top: 23px;
+
+	margin-top: 355px;
+	margin-left: 0;
+
+}
+
+.divProducte{
+	width: 1370px;
+	height: 648px;
+
+	background-image: url(../img/Image.png);
+
+	background-repeat: no-repeat;
+
+	background-position-x: 70px;
+	background-position-y: 0;
+
+	background-size: 639px 574px;
+}
+
+.ulDivPicture {
+	background-image: url(../img/Image_1.png);
+
+	background-repeat: no-repeat;
+
+	background-position-x: center;
+	background-position-y: 68px;
+
+	background-size: 58px;
+}
+
+.liDivProducte{
+	margin-right: 490px;
+}
+
+/*Опис титлу параграфу діву секції продукт*/
+
+.parCust {
+	width: 131px;
+	height: 24px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 14.49px;
+	font-weight: 600;
+	line-height: 22.75px;
+
+	text-align: center;
+
+	color: var(--colorTitle);
+
+	border-bottom: 1px solid var(--colorTitle);
+
+	margin: 0 auto;
+}
+
+.titleDivFor {
+	width: 42px;
+	height: 19px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 11.94px;
+	font-weight: 400;
+	line-height: 18.74px;
+
+	text-align: center;
+
+	color: var(--colorTitle);
+
+	margin: 82px auto 0;
+}
+
+.titleDivThree {
+	width: 180px;
+	height: 25px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 15.93px;
+	font-weight: 700;
+	line-height: 25.01px;
+
+	color: var(--colorTitle);
+
+	text-align: center;
+
+	margin: 10px auto;
+}
+
+.ulProducte{
+	margin: 0 15px;
+}
+
+.liProducte{
+	margin: 15px 61px;
+}
+
+
+.liProducteParLi {
+	width: 130px;
+	height: 17px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 10.62px;
+	font-weight: 400;
+	line-height: 16.67px;
+
+	color: var(--colorTitle);
+}
+
+
+.divParProducte {
+	width: 146px;
+	height: 39px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 39.25px;
+
+	color: var(--colorWorkPar);
+}
+
+.divTitleProducte {
+	width: 584px;
+	height: 158px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 78.5px;
+
+	color: var(--backgroundLink);
+
+	margin: 0;
+}
+
+.divParProductePar {
+	width: 530px;
+	height: 81px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 31.4px;
+
+	color: var(--colorContainerPar);
+}
+
+/*Опис футера*/
+
+footer {
+	width: 1920px;
+	height: 654px;
+
+	background: var(--background);
+
+	padding: 95px 1516px 144px 275px;
+
+	margin: 0 auto;
+}
+
+/*Опис диву футера*/
+
+
+
+/*Опис лі футера*/
+
+.liFooter{
+	margin-top: 60px;
+}
+
+
+/*Опис титлу футера*/
+
+.titleFooter {
+	width: 108px;
+	height: 55px;
+
+	font-family: var(--fontFamilyTitle);
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 54px;
+
+	color: var(--backgroundHeader);
+}
+
+/*Опис посилань футеру*/
+
+.aLiFooter {
+	width: 129px;
+	height: 30px;
+
+	font-family: var(--fontFamilyPar);
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+
+	color: var(--backgroundHeader);
+}
+
+.aLiFooter:hover, .aLiFooter:focus {
+	color: var(--backgroundLink);
+}
